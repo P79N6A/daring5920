@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+
+	<settings>
+		<!-- 开启mybatis缓存设置,一般都是true -->
+		<setting name="cacheEnabled" value="true"/>
+		
+		<!--延迟加载的全局开关-->
+		<setting name="lazyLoadingEnabled" value="false"/>
+		
+		<!--设置超时时间-->
+		<setting name="defaultStatementTimeout" value="3000"/>
+		
+		
+		<!--本地缓存机制-->
+		<setting name="localCacheScope" value="STATEMENT"/>
+		
+		<setting name="defaultExecutorType" value="SIMPLE"/>
+
+		<!-- 打印查询语句 -->
+		<setting name="logImpl" value="STDOUT_LOGGING" />
+
+		<!-- 对于未知的SQL查询，允许返回不同的结果集以达到通用的效果 -->
+		<setting name="multipleResultSetsEnabled" value="true"/>
+
+		<!-- 允许使用列标签代替列名 -->
+		<setting name="useColumnLabel" value="true"/>
+
+		<!--驼峰命名-->
+		<setting name="mapUnderscoreToCamelCase" value="false"/>
+		
+		<!--允许JDBC支持自动生成主键,需要驱动的兼容-->
+		<setting name="useGeneratedKeys" value="false"/>
+	</settings>
+
+</configuration>

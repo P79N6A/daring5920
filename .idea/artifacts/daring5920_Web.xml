@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="daring5920:Web">
+    <output-path>$PROJECT_DIR$/../daring5920/out/artifacts/daring5920_Web</output-path>
+    <root id="archive" name="daring5920_Web.war">
+      <element id="artifact" artifact-name="daring5920:Web exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:1.0" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper-spring-boot-autoconfigure:1.2.2" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper-spring-boot-starter:1.2.2" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:5.1.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

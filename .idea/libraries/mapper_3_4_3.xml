@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mapper-3.4.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../daring5920/src/main/webapp/WEB-INF/lib/mapper-3.4.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
