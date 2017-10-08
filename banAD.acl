@@ -426,6 +426,13 @@
 (^|\.)log\.v2\.hunantv\.com$
 (^|\.)mp4\.res\.hunantv\.com$
 (^|\.)p2\.hunantv\.com$
+(^|\.)www\.mgtv\.com##\.on\.footAd$
+(^|\.)click\.hunantv\.com/$
+(^|\.)da\.hunantv\.com/$
+(^|\.)da\.mgtv\.com/$
+(^|\.)res\.hunantv\.com/$
+(^|\.)res\.mgtv\.com/video/$object-subrequest$
+(^|\.)sdk\.yunfan\.com/crossdomain.xml$
 
 # Sohu 搜狐
 (^|\.)(888|lm|push)\.tv\.sohu\.com$
