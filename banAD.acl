@@ -7043,6 +7043,10 @@
 ^.*\.us$
 ^.*\.tw$
 
+#星客
+(^|\.)silktrader\.com$
+(^|\.)silktrader\.net$
+
 # MyList
 (^|\.)bit\.no\.com$
 (^|\.)btlibrary\.me$
